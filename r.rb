@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 #github message. no quotes needed
-system "sleep 10"
-system "echo aleal"
 commitMessage = ""
 ARGV.each do|a|
   commitMessage += a
@@ -11,6 +9,6 @@ system "git init"
 system "git add -A"
 system "git commit -m #{commitMessage}"
 system "git push origin master"
-system "sleep(1)"
+system "sleep(5)"
 system "alextappin\n"
 system "101862ajt\n"
