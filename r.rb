@@ -5,9 +5,9 @@ ARGV.each do|a|
   commitMessage += a
 end
 #puts "This is the message #{commitMessage}"
-system 'git init'
-system 'git add -A'
-system 'git commit -m #{commitMessage}'
-system 'git push origin master'
-system 'alextappin'
-system '101862ajt'
+system "git init"
+system "git add -A"
+system "git commit -m #{commitMessage}"
+system "git push origin master"
+system "alextappin"
+system "101862ajt"
